@@ -5,8 +5,8 @@ stages:
     deps:
     - path: data
       hash: md5
-      md5: 01fb173ddf0c747007bcc5ce7da33bff.dir
-      size: 91999
+      md5: 053b72b21f7862f0eb1742247b3e9ea8.dir
+      size: 91997
       nfiles: 1
     - path: train.py
       hash: md5
@@ -15,9 +15,9 @@ stages:
     outs:
     - path: metrics.csv
       hash: md5
-      md5: c5d8470b31b7a99504c20053e7b62760
+      md5: e5e50d173e6c57345c4185b48fc3a0e5
       size: 53
     - path: models/model.joblib
       hash: md5
-      md5: c0de562ad9e34c75d764188b7c910ffd
-      size: 3638833
+      md5: f8ace98a69f678d10848867f0056dde4
+      size: 3637393
