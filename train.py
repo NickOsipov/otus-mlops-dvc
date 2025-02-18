@@ -46,7 +46,7 @@ def train_model(X_train, X_test, y_train, y_test):
     Обучение модели Random Forest и вывод метрик качества
     """
     # Инициализация и обучение модели
-    rf_model = RandomForestRegressor(n_estimators=105, random_state=2)
+    rf_model = RandomForestRegressor(n_estimators=115, random_state=2)
     rf_model.fit(X_train, y_train)
 
     # Предсказания на тестовой выборке
