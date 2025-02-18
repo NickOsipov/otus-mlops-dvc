@@ -1,0 +1,5 @@
+[core]
+    remote = otus-mlops-dvc-bucket
+['remote "otus-mlops-dvc-bucket"']
+    url = s3://otus-mlops-dvc-bucket/dvcstore
+    endpointurl = https://storage.yandexcloud.net
