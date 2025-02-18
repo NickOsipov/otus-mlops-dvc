@@ -1,0 +1,1 @@
+dvc stage add -n train -d data -d train.py -o models/model.joblib -M metrics.csv python3 train.py
